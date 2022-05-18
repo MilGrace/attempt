@@ -35,7 +35,10 @@ class GameScene: SKScene
         
         if button.frame.contains(touch)
         {
-           
+            let secondScene = SecondScene(fileNamed: "SecondScene")
+            secondScene?.scaleMode = .aspectFill
+            let reveal = SKTransition.flipHorizontal(withDuration: 0)
+            view?.presentScene(secondScene!, transition: reveal)
         }
     }
     
@@ -47,7 +50,6 @@ class GameScene: SKScene
     // Create shape node to use during mouse interaction
 
 }
-    
     
     
     override func update(_ currentTime: TimeInterval)

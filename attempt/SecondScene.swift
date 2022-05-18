@@ -2,11 +2,20 @@
 //  SecondScene.swift
 //  attempt
 //
-//  Created by  on 5/13/22.
+//  Created by  on 5/18/22.
 //
 
-import UIKit
+import Foundation
+import SpriteKit
 
-class SecondScene: SKScene {
 
+class SecondScene: SKScene
+{
+    
+    override func didMove(to view: SKView)
+    {
+        
+    }
+    
+    
 }
