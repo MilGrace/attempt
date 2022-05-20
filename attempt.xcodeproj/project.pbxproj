@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F9074370282EA3F700C46B06 /* SecondScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F907436F282EA3F700C46B06 /* SecondScene.sks */; };
 		F907439828354A6300C46B06 /* SecondScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F907439728354A6300C46B06 /* SecondScene.swift */; };
+		F90743A52837EBBB00C46B06 /* HomeworkScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F90743A42837EBBB00C46B06 /* HomeworkScene.sks */; };
+		F90743A82837EBE700C46B06 /* HomeworkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90743A72837EBE700C46B06 /* HomeworkScene.swift */; };
 		F9B0A25D28255C3000F88603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0A25C28255C3000F88603 /* AppDelegate.swift */; };
 		F9B0A25F28255C3000F88603 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9B0A25E28255C3000F88603 /* GameScene.sks */; };
 		F9B0A26128255C3000F88603 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9B0A26028255C3000F88603 /* Actions.sks */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		F907436F282EA3F700C46B06 /* SecondScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SecondScene.sks; sourceTree = "<group>"; };
 		F907439728354A6300C46B06 /* SecondScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScene.swift; sourceTree = "<group>"; };
+		F90743A42837EBBB00C46B06 /* HomeworkScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HomeworkScene.sks; sourceTree = "<group>"; };
+		F90743A72837EBE700C46B06 /* HomeworkScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkScene.swift; sourceTree = "<group>"; };
 		F9B0A25928255C3000F88603 /* attempt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = attempt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B0A25C28255C3000F88603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9B0A25E28255C3000F88603 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				F9B0A25C28255C3000F88603 /* AppDelegate.swift */,
 				F907436F282EA3F700C46B06 /* SecondScene.sks */,
 				F907439728354A6300C46B06 /* SecondScene.swift */,
+				F90743A42837EBBB00C46B06 /* HomeworkScene.sks */,
+				F90743A72837EBE700C46B06 /* HomeworkScene.swift */,
 				F9B0A25E28255C3000F88603 /* GameScene.sks */,
 				F9B0A26228255C3000F88603 /* GameScene.swift */,
 				F9B0A26028255C3000F88603 /* Actions.sks */,
@@ -137,6 +143,7 @@
 				F9B0A25F28255C3000F88603 /* GameScene.sks in Resources */,
 				F9B0A26A28255C3C00F88603 /* Assets.xcassets in Resources */,
 				F9B0A26128255C3000F88603 /* Actions.sks in Resources */,
+				F90743A52837EBBB00C46B06 /* HomeworkScene.sks in Resources */,
 				F9074370282EA3F700C46B06 /* SecondScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +159,7 @@
 				F9B0A26528255C3000F88603 /* GameViewController.swift in Sources */,
 				F907439828354A6300C46B06 /* SecondScene.swift in Sources */,
 				F9B0A25D28255C3000F88603 /* AppDelegate.swift in Sources */,
+				F90743A82837EBE700C46B06 /* HomeworkScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
