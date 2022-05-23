@@ -1,5 +1,5 @@
 //
-//  CookingScene.swift
+//  SleepingScene.swift
 //  attempt
 //
 //  Created by  on 5/23/22.
@@ -8,7 +8,7 @@
 import Foundation
 import SpriteKit
 
-class CookingScene: SKScene
+class SleepingScene: SKScene
 {
     var returnH = SKSpriteNode(imageNamed: "returnH")
     
@@ -30,3 +30,4 @@ class CookingScene: SKScene
         }
     }
 }
+

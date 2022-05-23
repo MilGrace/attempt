@@ -13,11 +13,13 @@ class SecondScene: SKScene
 {
     var homework = SKSpriteNode(imageNamed: "homework")
     var cooking = SKSpriteNode(imageNamed: "cooking")
+    var sleep = SKSpriteNode(imageNamed: "sleep")
     
     override func didMove(to view: SKView)
     {
         homework = childNode(withName: "homework") as! SKSpriteNode
         cooking = childNode(withName: "cooking") as! SKSpriteNode
+        sleep = childNode(withName: "sleep") as! SKSpriteNode
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
@@ -37,6 +39,13 @@ class SecondScene: SKScene
             cookingScene?.scaleMode = .aspectFill
             let reveal = SKTransition.flipHorizontal(withDuration: 0)
             view?.presentScene(cookingScene!, transition: reveal)
+        }
+        if sleep.frame.contains(touch)
+        {
+            let sleepingScene = SleepingScene(fileNamed: "SleepingScene")
+            sleepingScene?.scaleMode = .aspectFill
+            let reveal = SKTransition.flipHorizontal(withDuration: 0)
+            view?.presentScene(sleepingScene!, transition: reveal)
         }
     }
 }
